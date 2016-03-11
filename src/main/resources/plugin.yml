@@ -1,0 +1,12 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+load: POSTWORLD
+author: Scrayos
+website: 'https://www.scrayos.net'
+main: ${project.groupId}.${project.artifactId}.${project.name}
+database: false
+depend: []
+softdepend: []
+loadbefore: []
+prefix: SI
